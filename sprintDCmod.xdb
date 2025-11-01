@@ -1,8 +1,8 @@
 <mod>
 	<EntityTemplate Name="Player" Guid="4be6c1c5-d65d-4537-8a8b-a391969e6dc2">
 		<MemberComponentTemplate Name="SprintDC" InheritanceParent="b05700ed-7e4e-4679-98f5-b597f421496b">
-      <Parameter Name="Class" Description="疾跑" Value="sprintDCmod.ComponentSprintDC" Type="string" />
-      <Parameter Name="Speed" Value="1.25" Description="疾跑时对速度的提升倍数(注：若太快会严重影响游戏平衡，如1.5倍速时装备靴子能跑的比马还快)" Type="float" />
+      <Parameter Name="Class" Description="Class" Value="sprintDCmod.ComponentSprintDC" Type="string" />
+      <Parameter Name="Speed" Value="1.25" Description="Speed multiplier while sprinting (Note: excessive speed may severely affect game balance, e.g., at 1.5x speed with boots, you can outrun a horse)" Type="float" />
     </MemberComponentTemplate>
 	</EntityTemplate>
 </mod>
