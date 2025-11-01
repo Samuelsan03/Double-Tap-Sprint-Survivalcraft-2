@@ -1,0 +1,11 @@
+{
+    "Name": "双击疾跑Mod",
+    "Version": "2.0",
+    "ApiVersion": "1.45",
+    "Description": "双击前进键可开启疾跑，消耗饱食度与耐力",
+    "ScVersion": "2.3.0.0",
+    "Link": "https://space.bilibili.com/348661858/",
+    "Author": "阳三疯",
+    "PackageName": "sc_sprintDC.ysf.scmod",
+    "Dependencies": []
+}
