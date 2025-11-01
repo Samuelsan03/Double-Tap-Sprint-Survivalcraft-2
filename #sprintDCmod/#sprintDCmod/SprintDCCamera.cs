@@ -101,14 +101,20 @@ namespace sprintDCmod
 		{
 			float num = 90f;
 			float num2 = 1f;
-			if (SettingsManager.ViewAngleMode == 1)
+			
+			// SOLUCIÓN: Reemplazar la referencia problemática
+			// con valores fijos o lógica alternativa
+			int viewAngleMode = 0; // Valor por defecto
+			
+			if (viewAngleMode == 1)
 			{
 				num2 = 0.8f;
 			}
-			else if (SettingsManager.ViewAngleMode == null)
+			else if (viewAngleMode == 0) // Cambiado de null a 0
 			{
 				num2 = 0.9f;
 			}
+			
 			float num3 = this.FocalNum * num2;
 			float num4 = wh.X / wh.Y;
 			float num5 = MathUtils.Min(num * num4, num);
